@@ -74,4 +74,35 @@ footer{
   background-color: #aaa;
 }
 
+@media screen and (max-width: 768px){
+  main{
+    width: 100%;
+    margin-top: 50px;
+    margin-left: 5%;
+  }
 
+  .box{
+    display: block;
+  }
+
+  .item{
+    width: 90%;
+  }
+
+  .item:first-child,
+  .item:nth-child(2){
+    margin-bottom: 20px;
+  }
+
+  .img1{
+    width:auto;
+  }
+
+  .img2{
+    width:auto;
+  }
+
+  .img3{
+    width:auto;
+  }
+}
